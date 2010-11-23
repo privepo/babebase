@@ -1,0 +1,20 @@
+K 13
+google:author
+V 6
+eotect
+K 10
+svn:author
+V 6
+eotect
+K 8
+svn:date
+V 27
+2010-11-13T19:15:52.864156Z
+K 7
+svn:log
+V 123
+update urlrule_task
+
+DATABASE.URL format updated, source[$3] definition starts with a '#'
+would be recognized as a comment.
+END

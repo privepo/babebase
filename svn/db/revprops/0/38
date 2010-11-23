@@ -1,0 +1,19 @@
+K 13
+google:author
+V 6
+eotect
+K 10
+svn:author
+V 6
+eotect
+K 8
+svn:date
+V 27
+2010-11-13T16:34:26.234981Z
+K 7
+svn:log
+V 94
+delete urlrule/1/cafe427.daum.net
+
+urlrule cafe427.daum.net duplicated urlrule/1/cafe.daum.net
+END

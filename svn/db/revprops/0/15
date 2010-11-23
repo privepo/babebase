@@ -1,0 +1,21 @@
+K 13
+google:author
+V 10
+xiaoranzzz
+K 10
+svn:author
+V 6
+eotect
+K 8
+svn:date
+V 27
+2010-06-10T16:33:14.482486Z
+K 7
+svn:log
+V 142
+URLRULE:        add rules for qzone.qq.com
+batchget:       accept SAVE_AS option from pipe 
+urlrule_action: fix bugs
+URLRULE.pm:     fix bugs
+
+END

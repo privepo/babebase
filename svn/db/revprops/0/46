@@ -1,0 +1,17 @@
+K 13
+google:author
+V 6
+eotect
+K 10
+svn:author
+V 6
+eotect
+K 8
+svn:date
+V 27
+2010-11-15T16:44:57.387398Z
+K 7
+svn:log
+V 55
+[urlrule] added google.search.image.* to hosts database
+END

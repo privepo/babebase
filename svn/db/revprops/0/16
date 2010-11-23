@@ -1,0 +1,22 @@
+K 13
+google:author
+V 10
+xiaoranzzz
+K 10
+svn:author
+V 6
+eotect
+K 8
+svn:date
+V 27
+2010-06-11T17:30:35.490772Z
+K 7
+svn:log
+V 154
+Baidu::Search           added
+Google::Search          added
+Google::Search::HTML    updated
+baidu.search.image      added
+google.search.image     updated
+
+END

@@ -1,0 +1,17 @@
+K 13
+google:author
+V 6
+eotect
+K 10
+svn:author
+V 6
+eotect
+K 8
+svn:date
+V 27
+2010-11-09T16:19:21.734409Z
+K 7
+svn:log
+V 114
+update script and module template, update plnew pmnew, add urlrule for t.sina.com.cn, add sina.com related scripts
+END
