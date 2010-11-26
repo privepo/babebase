@@ -38,31 +38,30 @@ Path: svn
 URL: file:///myplace/repos/babebase/svn
 Repository Root: file:///myplace/repos/babebase/svn
 Repository UUID: a25f4b33-b5fb-47d0-afa1-8abbc10b9997
-Revision: 49
+Revision: 51
 Node Kind: directory
-Last Changed Author: eotect
-Last Changed Rev: 49
-Last Changed Date: 2010-11-21 03:01:08 +0800 (Sun, 21 Nov 2010)
+Last Changed Author: eotect@gmail.com
+Last Changed Rev: 51
+Last Changed Date: 2010-11-27 03:41:36 +0800 (Sat, 27 Nov 2010)
 
 ------------------------------------------------------------------------
-r49 | eotect | 2010-11-21 03:01:08 +0800 (Sun, 21 Nov 2010) | 1 line
+r51 | eotect@gmail.com | 2010-11-27 03:41:36 +0800 (Sat, 27 Nov 2010) | 1 line
 
-updated database, and file ".gitconfig"
+updated database BEAUTY and HOSTS, added rules for 7koreangirls.cn
 ------------------------------------------------------------------------
 
 Path  : git
-Date  : 2010-11-20 19:01:08 +0000
-Author: Nahn Eoetct
-Commit: 735ef7d84dcffd926c86072edd4bacff37a5e143
+Date  : 2010-11-26 19:41:36 +0000
+Author: Eotect Nahn
+Commit: ef3521235b47b14d5f48a8ab8786f2a9d9a248ea
 
-    updated database, and file ".gitconfig"
+    updated database BEAUTY and HOSTS, added rules for 7koreangirls.cn
 
-git-svn-id: https://pl3.projectlocker.com/eotect/babebase/svn/trunk@49 c44af3c9-0258-4d1d-8eb7-ee9f6eb676e7
+git-svn-id: https://pl3.projectlocker.com/eotect/babebase/svn/trunk@51 c44af3c9-0258-4d1d-8eb7-ee9f6eb676e7
 
 
- .gitconfig          |   24 +
- database/BEAUTY.URL | 2689 ++++++++++++++++++++++++++++++++++++---------------
- database/HOSTS.URL  |    9 +
- database/TOPICS.URL |   15 +-
- database/keywords   |    3 +
- 5 files changed, 1976 insertions(+), 764 deletions(-)
+ 0/7koreangirls.cn   |    1 +
+ 1/7koreangirls.cn   |    1 +
+ database/BEAUTY.URL |   68 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ database/HOSTS.URL  |    3 ++
+ 4 files changed, 73 insertions(+), 0 deletions(-)
