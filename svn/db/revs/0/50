@@ -1,0 +1,62 @@
+PLAIN
+K 1
+0
+V 18
+dir 2-1.0.r48/9583
+K 1
+1
+V 20
+dir 29-1.0.r48/14710
+K 1
+2
+V 20
+dir 45-1.0.r39/28031
+K 1
+3
+V 20
+dir 4t-1.0.r33/25345
+K 1
+4
+V 20
+dir 53-1.0.r26/66958
+K 1
+5
+V 19
+dir 59-1.0.r1/80948
+K 6
+common
+V 19
+dir 8-17.0.r46/1456
+K 8
+database
+V 20
+dir r-25.0.r49/10896
+END
+ENDREP
+id: 0-1.0.r50/281
+type: dir
+pred: 0-1.0.r49/11561
+count: 49
+text: 50 0 268 268 abe16ac73fe0dc2f90d4dfac00620cd0
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 5
+trunk
+V 17
+dir 0-1.0.r50/281
+END
+ENDREP
+id: 0.0.r50/472
+type: dir
+pred: 0.0.r49/11760
+count: 50
+text: 50 422 37 37 0013d42ba9013277619194057c0c5122
+cpath: /
+copyroot: 0 /
+
+1-49.0.r49/11054 delete-file false false /trunk/.gitconfig
+
+
+472 604
