@@ -65,3 +65,35 @@ git-svn-id: https://pl3.projectlocker.com/eotect/babebase/svn/trunk@51 c44af3c9-
  database/BEAUTY.URL |   68 +++++++++++++++++++++++++++++++++++++++++++++++++++
  database/HOSTS.URL  |    3 ++
  4 files changed, 73 insertions(+), 0 deletions(-)
+BABEBASE:
+
+Path: svn
+URL: file:///myplace/repos/babebase/svn
+Repository Root: file:///myplace/repos/babebase/svn
+Repository UUID: a25f4b33-b5fb-47d0-afa1-8abbc10b9997
+Revision: 60
+Node Kind: directory
+Last Changed Author: eotect@gmail.com
+Last Changed Rev: 60
+Last Changed Date: 2010-12-11 00:31:24 +0800 (Sat, 11 Dec 2010)
+
+------------------------------------------------------------------------
+r60 | eotect@gmail.com | 2010-12-11 00:31:24 +0800 (Sat, 11 Dec 2010) | 1 line
+
+updated database BEAUTY
+------------------------------------------------------------------------
+
+Path  : git
+Date  : 2010-12-10 16:31:24 +0000
+Author: Eotect Nahn
+Commit: c9776c2e8af284d9275a690870746bd3a5c34626
+
+    updated database BEAUTY
+
+git-svn-id: https://pl3.projectlocker.com/eotect/babebase/svn/trunk@60 c44af3c9-0258-4d1d-8eb7-ee9f6eb676e7
+
+
+ database/BEAUTY.URL      |    1 -
+ database/BEAUTY.log      |  511 ++++++++
+ database/BEAUTY.task.log | 3133 ++++++++++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 3644 insertions(+), 1 deletions(-)

@@ -1,0 +1,21 @@
+K 10
+svn:author
+V 16
+eotect@gmail.com
+K 8
+svn:date
+V 27
+2010-11-28T18:17:20.321746Z
+K 7
+svn:log
+V 193
+updated database, add rules
+
+database:
+	added virtual HOST bbs.discuz
+	added entries for 林智慧 李智友
+rules:
+	added imjihye.com
+	added common rules bbs.discuz
+	updated minihp.cyworld.com
+END
