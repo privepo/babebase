@@ -2,5 +2,15 @@
 	repositoryformatversion = 0
 	filemode = true
 	bare = true
-[remote "origin"]
-	url = /myplace/workspace/perl/urlrule/.
+	ignorecase = true
+[pack]
+	packSizeLimit = 4m
+[remote "assembla"]
+	url = git@git.assembla.com:babebase.git
+	fetch = +refs/heads/*:refs/remotes/assembla/*
+[remote "sourceforge"]
+	url = ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/profiles/babebase
+	fetch = +refs/heads/*:refs/remotes/sourceforge/*
+[remote "unfuddle"]
+	url = git@eotect.unfuddle.com:eotect/babebase.git
+	fetch = +refs/heads/*:refs/remotes/unfuddle/*
