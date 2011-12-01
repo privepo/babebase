@@ -97,3 +97,20 @@ git-svn-id: https://pl3.projectlocker.com/eotect/babebase/svn/trunk@60 c44af3c9-
  database/BEAUTY.log      |  511 ++++++++
  database/BEAUTY.task.log | 3133 ++++++++++++++++++++++++++++++++++++++++++++++
  3 files changed, 3644 insertions(+), 1 deletions(-)
+BABEBASE [GIT] commit a6558344: Update HOST.URL.
+
+
+Path  : git
+Date  : 2011-09-01 19:11:43 +0800
+Author: Eotect Nahn
+Commit: a6558344fd8b59936e1a35e2a1cf0504ae4636ce
+
+    Update HOST.URL.
+
+
+
+ database/HOSTS.URL |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+================================================================================
+
