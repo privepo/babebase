@@ -97,20 +97,25 @@ git-svn-id: https://pl3.projectlocker.com/eotect/babebase/svn/trunk@60 c44af3c9-
  database/BEAUTY.log      |  511 ++++++++
  database/BEAUTY.task.log | 3133 ++++++++++++++++++++++++++++++++++++++++++++++
  3 files changed, 3644 insertions(+), 1 deletions(-)
-BABEBASE [GIT] commit a6558344: Update HOST.URL.
+BABEBASE [GIT] commit 6a22fb19: Update moko.cc.
 
 
 Path  : git
-Date  : 2011-09-01 19:11:43 +0800
+Date  : 2011-12-12 14:15:05 +0800
 Author: Eotect Nahn
-Commit: a6558344fd8b59936e1a35e2a1cf0504ae4636ce
+Commit: 6a22fb19985baac70625f22a9d7e9b5aa430af1e
 
-    Update HOST.URL.
+    Update moko.cc.
 
 
 
- database/HOSTS.URL |    2 +-
- 1 files changed, 1 insertions(+), 1 deletions(-)
+ .PROJECTS           |    1 +
+ .reposman           |    1 +
+ 0/www.moko.cc       |   15 +++++++++------
+ 1/www.moko.cc       |   48 ++++++++++++++++++++++++++++++++++++------------
+ 2/www.moko.cc       |   17 ++---------------
+ database/BEAUTY.URL |   14 +++++++-------
+ 6 files changed, 56 insertions(+), 40 deletions(-)
 
 ================================================================================
 
