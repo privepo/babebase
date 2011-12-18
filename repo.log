@@ -97,25 +97,23 @@ git-svn-id: https://pl3.projectlocker.com/eotect/babebase/svn/trunk@60 c44af3c9-
  database/BEAUTY.log      |  511 ++++++++
  database/BEAUTY.task.log | 3133 ++++++++++++++++++++++++++++++++++++++++++++++
  3 files changed, 3644 insertions(+), 1 deletions(-)
-BABEBASE [GIT] commit 6a22fb19: Update moko.cc.
+BABEBASE [GIT] commit 96a0193e: Add [gods-art.de] rule.
 
 
 Path  : git
-Date  : 2011-12-12 14:15:05 +0800
+Date  : 2011-12-18 04:58:44 +0800
 Author: Eotect Nahn
-Commit: 6a22fb19985baac70625f22a9d7e9b5aa430af1e
+Commit: 96a0193ec8cfb629af42c2f14f33c7e1a3b80ef2
 
-    Update moko.cc.
+    Add [gods-art.de] rule.
 
 
 
- .PROJECTS           |    1 +
- .reposman           |    1 +
- 0/www.moko.cc       |   15 +++++++++------
- 1/www.moko.cc       |   48 ++++++++++++++++++++++++++++++++++++------------
- 2/www.moko.cc       |   17 ++---------------
- database/BEAUTY.URL |   14 +++++++-------
- 6 files changed, 56 insertions(+), 40 deletions(-)
+ .reposman     |    2 +-
+ 0/gods-art.de |   82 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1/gods-art.de |   81 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2/gods-art.de |   81 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 4 files changed, 245 insertions(+), 1 deletions(-)
 
 ================================================================================
 
