@@ -97,27 +97,21 @@ git-svn-id: https://pl3.projectlocker.com/eotect/babebase/svn/trunk@60 c44af3c9-
  database/BEAUTY.log      |  511 ++++++++
  database/BEAUTY.task.log | 3133 ++++++++++++++++++++++++++++++++++++++++++++++
  3 files changed, 3644 insertions(+), 1 deletions(-)
-BABEBASE [GIT] commit 60653a4d: Add sites, common script for <a><img></a>.
+BABEBASE [GIT] commit 8a9c5d13: Update common/href.img.
 
 
 Path  : git
-Date  : 2011-12-19 06:37:52 +0800
+Date  : 2011-12-19 21:26:55 +0800
 Author: Eotect Nahn
-Commit: 60653a4dc1dba44f55f791be867602ccef71856b
+Commit: 8a9c5d133e584800831f2bf98f6ed40ad56057db
 
-    Add sites, common script for <a><img></a>.
+    Update common/href.img.
 
 
 
- 0/acmegirls.com        |    1 +
- 0/bbp.juggcrew.com     |    1 +
- 0/sunnyleone.com       |    1 +
- 0/www.babelistings.com |  103 ++++++++++++++++++++++++++++++++++++++++++++++++
- 1/acmegirls.com        |   82 ++++++++++++++++++++++++++++++++++++++
- 1/www.babelistings.com |   82 ++++++++++++++++++++++++++++++++++++++
- 2/www.babelistings.com |   82 ++++++++++++++++++++++++++++++++++++++
- common/href.img        |   76 +++++++++++++++++++++++++++++++++++
- 8 files changed, 428 insertions(+), 0 deletions(-)
+ 1/acmegirls.com |    2 +-
+ common/href.img |    2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
 
 ================================================================================
 
