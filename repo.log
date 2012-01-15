@@ -97,25 +97,24 @@ git-svn-id: https://pl3.projectlocker.com/eotect/babebase/svn/trunk@60 c44af3c9-
  database/BEAUTY.log      |  511 ++++++++
  database/BEAUTY.task.log | 3133 ++++++++++++++++++++++++++++++++++++++++++++++
  3 files changed, 3644 insertions(+), 1 deletions(-)
-BABEBASE [GIT] commit 3d3a2c89: Add rules for freeones.com, pornstarbook.com and gals4free.net.
+BABEBASE [GIT] commit 42ea63f4: Add rules for poco.cn.
 
 
 Path  : git
-Date  : 2011-12-20 04:53:23 +0800
-Author: Eotect Nahn
-Commit: 3d3a2c89b4d90b0c381ef1834a6ffe2af71d91bf
+Date  : 2012-01-16 05:18:12 +0800
+Author: Eoetct Nahn
+Commit: 42ea63f4a986eb371ef0441d19d9e5f708da9b10
 
-    Add rules for freeones.com, pornstarbook.com and gals4free.net.
+    Add rules for poco.cn.
 
 
 
- .gitignore          |    1 +
- 1/freeones.com      |   83 +++++++++++++++++++++++++++++++++++++++++++++++++++
- 1/pornstarbook.com  |   82 ++++++++++++++++++++++++++++++++++++++++++++++++++
- 1/www.gals4free.net |   82 ++++++++++++++++++++++++++++++++++++++++++++++++++
- 2/www.freeones.com  |   82 ++++++++++++++++++++++++++++++++++++++++++++++++++
- common/href.img     |    3 ++
- 6 files changed, 333 insertions(+), 0 deletions(-)
+ 0/poco.cn    |   82 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1/poco.cn    |   79 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2/poco.cn    |   80 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 3/cgcccp.com |   82 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 3/poco.cn    |   81 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 5 files changed, 404 insertions(+), 0 deletions(-)
 
 ================================================================================
 
