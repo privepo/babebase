@@ -97,148 +97,36 @@ git-svn-id: https://pl3.projectlocker.com/eotect/babebase/svn/trunk@60 c44af3c9-
  database/BEAUTY.log      |  511 ++++++++
  database/BEAUTY.task.log | 3133 ++++++++++++++++++++++++++++++++++++++++++++++
  3 files changed, 3644 insertions(+), 1 deletions(-)
-BABEBASE [GIT] commit 3763ef41: Convert MyPlace::HTTPGet to MyPlace::LWP.
+BABEBASE [GIT] commit c71ec394: Add supports for blog.163.com and photo.163.com.
 
 
 Path  : git
-Date  : 2012-01-18 03:00:00 +0800
+Date  : 2012-01-27 03:37:07 +0800
 Author: Eoetct Nahn
-Commit: 3763ef41d973de0c5d34cd63b1da159d9c78d978
+Commit: c71ec394f79ebe4b2a6b9ce16a07d0485e6a4b2c
 
-    Convert MyPlace::HTTPGet to MyPlace::LWP.
+    Add supports for blog.163.com and photo.163.com.
 
 
 
- 0/7koreangirls.cn            |   46 +++-
- 0/acmegirls.com              |   96 +++++-
- 0/bbp.juggcrew.com           |   96 +++++-
- 0/blog.sohu.com              |    4 +-
- 0/celebuzz.com               |    4 +-
- 0/forum.phpBB                |    4 +-
- 0/forum.skins.be             |    4 +-
- 0/gallery.script.coppermine  |    6 +-
- 0/game.163.com               |    4 +-
- 0/hi.baidu.com               |    4 +-
- 0/hq-celebrity.com           |    4 +-
- 0/kimkardashian.celebuzz.com |    4 +-
- 0/kimkardashianweb.com       |    6 +-
- 0/lucy-pinder.tv             |   75 ++++-
- 0/m.mywhere.org              |   57 +++-
- 0/meeya.cc                   |    4 +-
- 0/moko.cc                    |   56 +++
- 0/page.renren.com            |    4 +-
- 0/pamelazone.com             |    6 +-
- 0/photo.qq.com               |    4 +-
- 0/photobucket.com            |    4 +-
- 0/pic.sogou.com              |    4 +-
- 0/pp.sohu.com                |    4 +-
- 0/slide.2010.sina.com.cn     |    4 +-
- 0/sunnyleone.com             |   96 +++++-
- 0/tieba.baidu.com            |    4 +-
- 0/www.5show.com              |    4 +-
- 0/www.adultdocument.info     |    4 +-
- 0/www.boobieblog.com         |    4 +-
- 0/www.celebies.com           |    4 +-
- 0/www.celebrity-pictures.ca  |    4 +-
- 0/www.centerfoldlove.net     |   57 +++-
- 0/www.digicelebs.com         |    4 +-
- 0/www.hollywoodtuna.com      |    6 +-
- 0/www.hqpics.org             |    4 +-
- 0/www.icelebz.com            |    4 +-
- 0/www.mademan.com            |    4 +-
- 0/www.moko.cc                |   56 ---
- 0/www.mtime.com              |    4 +-
- 0/www.nnpo.info              |   98 +++++-
- 0/www.onemodelplace.com      |    4 +-
- 0/www.picsius.com            |    4 +-
- 0/www.skins.be               |    4 +-
- 0/www.yayaxiu.com            |    4 +-
- 0/www.yymax.com              |    4 +-
- 0/yahoo.search.image         |    2 +-
- 1/blog.163.com               |    4 +-
- 1/blog.sohu.com              |    4 +-
- 1/cafe.daum.net.bak          |    4 +-
- 1/celebuzz.com               |    4 +-
- 1/forum.phpBB                |    4 +-
- 1/forum.skins.be             |    4 +-
- 1/fotomm.com                 |    4 +-
- 1/gallery.script.coppermine  |    6 +-
- 1/game.163.com               |    4 +-
- 1/hi.baidu.com               |    4 +-
- 1/hq-celebrity.com           |    4 +-
- 1/hqpics.org                 |    4 +-
- 1/kimkardashian.celebuzz.com |    6 +-
- 1/kimkardashianweb.com       |    6 +-
- 1/meeya.cc                   |    4 +-
- 1/moko.cc                    |   79 ++++
- 1/moko.cc.bak                |   70 ++++
- 1/page.renren.com            |    4 +-
- 1/pamelazone.com             |    6 +-
- 1/photo.blog.163.com         |    2 +-
- 1/photo.qq.com               |    4 +-
- 1/photobucket.com            |    4 +-
- 1/pic.sogou.com              |    4 +-
- 1/pp.sohu.com                |    4 +-
- 1/tieba.baidu.com            |    4 +-
- 1/wpf6188.tuzhan.com         |    4 +-
- 1/www.5show.com              |    4 +-
- 1/www.adultdocument.info     |    4 +-
- 1/www.boobieblog.com         |    4 +-
- 1/www.celebies.com           |    4 +-
- 1/www.celebrity-pictures.ca  |    4 +-
- 1/www.digicelebs.com         |    4 +-
- 1/www.hollywoodtuna.com      |    4 +-
- 1/www.hotcute.cn             |    4 +-
- 1/www.mademan.com            |    4 +-
- 1/www.moko.cc                |   69 ----
- 1/www.mtime.com              |    4 +-
- 1/www.onemodelplace.com      |    4 +-
- 1/www.picsius.com            |    4 +-
- 1/www.skins.be               |    4 +-
- 1/www.tuke.com               |    4 +-
- 1/www.tuzhan.com             |    4 +-
- 1/www.yayaxiu.com            |    4 +-
- 1/www.yymax.com              |    4 +-
- 1/yahoo.search.image         |    2 +-
- 2/blog.sohu.com              |    4 +-
- 2/forum.phpBB                |    4 +-
- 2/game.163.com               |    4 +-
- 2/hq-celebrity.com           |    4 +-
- 2/moko.cc                    |   83 ++++
- 2/moko.cc.bak                |   70 ++++
- 2/page.renren.com            |    4 +-
- 2/pic.sogou.com              |    4 +-
- 2/pp.sohu.com                |    4 +-
- 2/qzone.qq.com               |    4 +-
- 2/tieba.baidu.com            |    4 +-
- 2/tuhigh.com                 |    4 +-
- 2/www.adultdocument.info     |    4 +-
- 2/www.celebies.com           |    4 +-
- 2/www.hankyung.com           |    4 +-
- 2/www.hollywoodtuna.com      |    4 +-
- 2/www.moko.cc                |   58 ---
- 2/www.skins.be               |    4 +-
- 2/yahoo.search.image         |    2 +-
- 3/forum.phpBB                |    4 +-
- 3/moko.cc                    |   45 +++
- 3/page.renren.com            |    4 +-
- 3/pp.sohu.com                |    6 +-
- 3/tieba.baidu.com            |    4 +-
- 3/www.moko.cc                |   37 --
- 3/yahoo.search.image         |    2 +-
- 4/forum.phpBB                |    2 +-
- 4/moko.cc                    |   37 ++
- 4/www.moko.cc                |   39 --
- 5/moko.cc                    |   39 ++
- 5/www.moko.cc                |   40 --
- 6/moko.cc                    |   40 ++
- common/SearchImage           |    2 +-
- common/daum.net              |    4 +-
- common/google.search.image   |    2 +-
- common/http.list             |    4 +-
- database/DATABASE.URL        |  865 +++++++++++++++++++++++++++++-------------
- database/HOSTS.URL           |   62 +++-
- 129 files changed, 1989 insertions(+), 795 deletions(-)
+ 0/blog.163.com               |   84 +--------------------------------------
+ 0/celebuzz.com               |   52 ++++--------------------
+ 0/kimkardashian.celebuzz.com |   49 -----------------------
+ 0/ph.126.net                 |   54 +------------------------
+ 0/photo.163.com.pl           |   65 ------------------------------
+ 0/photo.blog.sina.com.cn     |   27 ++++++-------
+ 1/blog.163.com               |    2 +-
+ 1/celebuzz.com               |   60 ++++------------------------
+ 1/kimkardashian.celebuzz.com |   71 ---------------------------------
+ 1/ph.126.net                 |    1 +
+ 1/photo.163.com.pl           |   53 ------------------------
+ 1/photo.blog.sina.com.cn     |    6 +-
+ 2/blog.163.com               |    1 +
+ 2/celebuzz.com               |   84 +++++++++++++++++++++++++++++++++++++++
+ 2/photo.blog.sina.com.cn     |    6 +-
+ common/blog.163.com          |   90 ++++++++++++++++++++++++++++++++++++++++++
+ common/photo.163.com         |   58 +++++++++++++++++++++++++++
+ 17 files changed, 272 insertions(+), 491 deletions(-)
 
 ================================================================================
 
