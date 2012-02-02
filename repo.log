@@ -97,36 +97,23 @@ git-svn-id: https://pl3.projectlocker.com/eotect/babebase/svn/trunk@60 c44af3c9-
  database/BEAUTY.log      |  511 ++++++++
  database/BEAUTY.task.log | 3133 ++++++++++++++++++++++++++++++++++++++++++++++
  3 files changed, 3644 insertions(+), 1 deletions(-)
-BABEBASE [GIT] commit c71ec394: Add supports for blog.163.com and photo.163.com.
+BABEBASE [GIT] commit 42863317: Add/Update '0/dp.pconline.com.cn 1/dp.pconline.com.cn 2/dp.pconline.com.cn 3/dp.pconline.com.cn'
 
 
 Path  : git
-Date  : 2012-01-27 03:37:07 +0800
+Date  : 2012-02-03 02:36:08 +0800
 Author: Eoetct Nahn
-Commit: c71ec394f79ebe4b2a6b9ce16a07d0485e6a4b2c
+Commit: 42863317d3a86fa0b1c39cf1a28b0eb1d089a752
 
-    Add supports for blog.163.com and photo.163.com.
+    Add/Update '0/dp.pconline.com.cn 1/dp.pconline.com.cn 2/dp.pconline.com.cn 3/dp.pconline.com.cn'
 
 
 
- 0/blog.163.com               |   84 +--------------------------------------
- 0/celebuzz.com               |   52 ++++--------------------
- 0/kimkardashian.celebuzz.com |   49 -----------------------
- 0/ph.126.net                 |   54 +------------------------
- 0/photo.163.com.pl           |   65 ------------------------------
- 0/photo.blog.sina.com.cn     |   27 ++++++-------
- 1/blog.163.com               |    2 +-
- 1/celebuzz.com               |   60 ++++------------------------
- 1/kimkardashian.celebuzz.com |   71 ---------------------------------
- 1/ph.126.net                 |    1 +
- 1/photo.163.com.pl           |   53 ------------------------
- 1/photo.blog.sina.com.cn     |    6 +-
- 2/blog.163.com               |    1 +
- 2/celebuzz.com               |   84 +++++++++++++++++++++++++++++++++++++++
- 2/photo.blog.sina.com.cn     |    6 +-
- common/blog.163.com          |   90 ++++++++++++++++++++++++++++++++++++++++++
- common/photo.163.com         |   58 +++++++++++++++++++++++++++
- 17 files changed, 272 insertions(+), 491 deletions(-)
+ 0/dp.pconline.com.cn |   55 ++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1/dp.pconline.com.cn |   54 +++++++++++++++++++++++++++++++++++++++++++++++++
+ 2/dp.pconline.com.cn |   54 +++++++++++++++++++++++++++++++++++++++++++++++++
+ 3/dp.pconline.com.cn |   53 ++++++++++++++++++++++++++++++++++++++++++++++++
+ 4 files changed, 216 insertions(+), 0 deletions(-)
 
 ================================================================================
 
