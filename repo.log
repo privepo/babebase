@@ -97,36 +97,21 @@ git-svn-id: https://pl3.projectlocker.com/eotect/babebase/svn/trunk@60 c44af3c9-
  database/BEAUTY.log      |  511 ++++++++
  database/BEAUTY.task.log | 3133 ++++++++++++++++++++++++++++++++++++++++++++++
  3 files changed, 3644 insertions(+), 1 deletions(-)
-BABEBASE [GIT] commit 54076e70: Update rules, add rules
+BABEBASE [GIT] commit 8e8084f9: Update rules: colorbird.com.
 
 
 Path  : git
-Date  : 2012-10-09 00:40:17 +0800
+Date  : 2012-10-15 01:16:16 +0800
 Author: Eoetct Nahn
-Commit: 54076e70f5b39318f25ee6444f5d9032cc928887
+Commit: 8e8084f9654503647815adc4e21a5273d9f844b1
 
-    Update rules, add rules
-
-Update rules:
-	dp.pconline.com.cn
-	www.hollywoodtuna.com
-	www.skins.be
-Add rules:
-	weitu.sdodo.com
-	www.colorbird.com
-	weibo.com
+    Update rules: colorbird.com.
 
 
- 0/dp.pconline.com.cn    |    6 ++---
- 0/weitu.sdodo.com       |   54 ++++++++++++++++++++++++++++++++++++++++++
- 0/www.colorbird.com     |   54 ++++++++++++++++++++++++++++++++++++++++++
- 0/www.hollywoodtuna.com |    2 +-
- 0/www.skins.be          |    3 ++-
- 1/dp.pconline.com.cn    |    2 +-
- 1/weitu.sdodo.com       |   54 ++++++++++++++++++++++++++++++++++++++++++
- 1/www.colorbird.com     |   53 +++++++++++++++++++++++++++++++++++++++++
- 2/weibo.com             |   60 +++++++++++++++++++++++++++++++++++++++++++++++
- 9 files changed, 282 insertions(+), 6 deletions(-)
+
+ 0/www.colorbird.com |    2 +-
+ 1/www.colorbird.com |    4 ++--
+ 2 files changed, 3 insertions(+), 3 deletions(-)
 
 ================================================================================
 
